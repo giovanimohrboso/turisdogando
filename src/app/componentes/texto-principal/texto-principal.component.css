@@ -1,0 +1,6 @@
+div > p{
+  padding: 5px;
+  margin: 5px;
+  text-align: justify;
+  text-indent: 20px;
+}

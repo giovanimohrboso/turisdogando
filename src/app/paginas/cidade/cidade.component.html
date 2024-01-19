@@ -1,0 +1,12 @@
+<div class="container_cidade">
+  <div class="principal">
+    <h1>{{nome}}</h1>
+    <p>{{descricao}}</p>
+  </div>
+  <div class="fotos">
+    <app-card-cidade-fotos *ngFor="let dado of resultado_foto"
+      caminhoFoto="{{dado.caminhoFoto}}"
+      descricao="{{dado.descricao}}">
+    </app-card-cidade-fotos>
+  </div>
+</div>
