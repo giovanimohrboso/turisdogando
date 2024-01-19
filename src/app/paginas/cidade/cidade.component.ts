@@ -10,7 +10,11 @@ import { cidades, cidades_fotos } from 'src/app/dados/cidades';
 export class CidadeComponent implements OnInit {
 
   nome:string | null=""
-  descricao:string=""
+  descricao1:string | any=""
+  descricao2:string | any=""
+  descricao3:string | any=""
+  descricao4:string | any=""
+  data:string | any=""
 
   resultado_foto:any[]=[]
 
@@ -26,7 +30,11 @@ export class CidadeComponent implements OnInit {
   setValuesComponent(nome:string| null):void{
     const resultado = cidades.filter(article => article.nome.toString() == nome)[0]
       this.nome = resultado.nome
-      this.descricao = resultado.descricao
+      this.descricao1 = resultado.descricao1
+      this.descricao2 = resultado.descricao2
+      this.descricao3 = resultado.descricao3
+      this.descricao4 = resultado.descricao4
+      this.data = resultado.data
 
       this.resultado_foto = cidades_fotos.filter(article => article.nome.toString() == this.nome)
 
