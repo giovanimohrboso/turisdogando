@@ -1,8 +1,6 @@
 <div class="container_cidades">
-  <app-card-cidade *ngFor="let dado of resultado"
-  id="{{dado.id}}"
+  <app-card-cidade *ngFor="let dado of resultado.cidades"
   nome="{{dado.nome}}"
   caminhoFotoCapa="{{dado.caminhoFotoCapa}}">
   </app-card-cidade>
-
 </div>

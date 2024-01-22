@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { cidades } from 'src/app/dados/cidades';
+import { HttpClient } from '@angular/common/http';
+import { Cidade } from 'src/app/modelos/cidade'
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-cidades',
@@ -8,11 +10,20 @@ import { cidades } from 'src/app/dados/cidades';
 })
 export class CidadesComponent implements OnInit {
 
-  resultado = cidades
+  urlToJson = 'assets/dados/cidades.json';
 
-  constructor() { }
+  public resultado:any = []
+
+  constructor(public http: HttpClient) { }
 
   ngOnInit(): void {
+    this.getCidades().subscribe(response => {
+      this.resultado = response;
+    });
+  }
+
+  getCidades():Observable<Cidade[]>{
+    return this.http.get<Cidade[]>(this.urlToJson)
   }
 
 }

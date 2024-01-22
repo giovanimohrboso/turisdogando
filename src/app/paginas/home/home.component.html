@@ -1,6 +1,6 @@
 <div class="container_home">
   <app-texto-principal></app-texto-principal>
-  <app-destaque *ngFor="let dado of resultado_destaque"
+  <app-destaque *ngFor="let dado of resultado.cidades"
     nome="{{dado.nome}}"
     caminhoFotoCapa="{{dado.caminhoFotoCapa}}">
   </app-destaque>

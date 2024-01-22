@@ -1,6 +1,8 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { cidades, cidades_fotos } from 'src/app/dados/cidades';
+import { Observable } from 'rxjs';
+import { Cidade, Fotos } from 'src/app/modelos/cidade';
 
 @Component({
   selector: 'app-cidade',
@@ -9,35 +11,49 @@ import { cidades, cidades_fotos } from 'src/app/dados/cidades';
 })
 export class CidadeComponent implements OnInit {
 
-  nome:string | null=""
+  urlToJson = 'assets/dados/cidades.json';
+  public resultado:any = []
+
+  nome:string | any=""
   descricao1:string | any=""
   descricao2:string | any=""
   descricao3:string | any=""
   descricao4:string | any=""
   data:string | any=""
 
-  resultado_foto:any[]=[]
+  resultado_cidade:Cidade | undefined;
+  resultado_detalhes:Fotos[]=[];
 
-  constructor(private route:ActivatedRoute) { }
+  constructor(public http: HttpClient,private route:ActivatedRoute) { }
 
   ngOnInit(): void {
+
     this.route.paramMap.subscribe(value =>
       this.nome = (value.get("nome"))
     )
+
     this.setValuesComponent(this.nome)
   }
 
-  setValuesComponent(nome:string| null):void{
-    const resultado = cidades.filter(article => article.nome.toString() == nome)[0]
-      this.nome = resultado.nome
-      this.descricao1 = resultado.descricao1
-      this.descricao2 = resultado.descricao2
-      this.descricao3 = resultado.descricao3
-      this.descricao4 = resultado.descricao4
-      this.data = resultado.data
+  setValuesComponent(nome:string):void{
+    this.getCidades().subscribe(response => {
+      this.resultado = response;
+      this.resultado.cidades = this.resultado.cidades.filter((article: { nome: { toString: () => string | null; }; }) => article.nome.toString() == this.nome);
 
-      this.resultado_foto = cidades_fotos.filter(article => article.nome.toString() == this.nome)
+      this.resultado_cidade = this.resultado.cidades[0].nomenome
+      this.descricao1 = this.resultado.cidades[0].descricao1
+      this.descricao2 = this.resultado.cidades[0].descricao2
+      this.descricao3 = this.resultado.cidades[0].descricao3
+      this.descricao4 = this.resultado.cidades[0].descricao4
+      this.data = this.resultado.cidades[0].data
+      this.resultado_detalhes = this.resultado.cidades[0].fotos
+    });
 
+    
+  }
+
+  getCidades():Observable<Cidade[]>{
+    return this.http.get<Cidade[]>(this.urlToJson)
   }
 
 }
