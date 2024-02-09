@@ -7,7 +7,7 @@
          "descricao3":"Descoberta das Águas: Na década de 1920, Júlio Prestes, então governador do estado de São Paulo, havia iniciado as pesquisas na área de prospecção de petróleo. As pesquisas falharam na tentativa de encontrar o produto e os equipamentos foram abandonados, apenas jorrando água mineral. Posteriormente outras tentativas foram feitas para encontrar petróleo em grandes profundidades e, novamente, nenhum óleo foi encontrado. Apenas água.Anos mais tarde, em 1934, Angelo Franzin, donos das terras perfuradas, que é conhecida atualmente como fonte da juventude, construiu um balneário simples, onde se banhava. A água tinha um odor forte. Um ano depois um grupo de pessoas da cidade comprou e construiu um balneário ao redor da fonte da juventude.",
          "descricao4":"Águas de São Pedro tem opções deliciosas para passeio, nessa viagem, passamos um dia nessa linda e aconchegante cidade.",
          "caminhoFotoCapa":"assets/cidades/aguasdesaopedro-sp/fotocapa.png",
-         "destaque":true,
+         "destaque":false,
          "data":"05/2023",
          "fotos":[
             {
@@ -273,6 +273,86 @@
             {
                "descricao":"Depois do passeio, um belo almoço na Villa VinSanto – Trattoria, Pizzeria e Griglia. Restaurante Italiano com pratos maravilhosos. Ambiente super agradável e ... Nossos pets são super bem recebidos.",
                "caminhoFoto":"assets/cidades/boituva-sp/foto12.png"
+            }
+            ]
+        },
+        {
+         "nome":"Cananéia - SP",
+         "descricao1":"Cananéia, considerada por alguns historiadores, a cidade mais antiga do Brasil está no extremo sul do Litoral Paulista, é um dos maiores berçários de vida marinha do planeta tombada pela UNESCO como Patrimônio Natural da Humanidade. A cidade de Cananéia em si não tem praias, mas proporciona passeios incríveis de barcos pelas praias aos arredores. ",
+         "descricao2":"Uma delas é a Ilha do Cardoso - porém esse passeio não aceita cães - PARA NÓS, SEM NOSSOS FILHOS, SEM PASSEIO NO LOCAL! E o passeio até Ilha Comprida SUL é super demais e os nossos filhotes são muito bem vindos!",
+         "descricao3":"A Cidade é muito aconchegante e que gastronomia!!!",
+         "descricao4":"População: 12.541 (2020) https://www.cananeia.sp.gov.br/cidade",
+         "caminhoFotoCapa":"assets/cidades/cananeia-sp/fotocapa.png",
+         "destaque":true,
+         "data":"01/2024",
+         "fotos":[
+            {
+               "descricao":"Seu Centro Histórico preserva os estilos arquitetônicos nas construções desde o perí­odo colonial no século XVII até o final do século XIX. https://naturam.com.br/cananeia/",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto1.png"
+            },
+            {
+               "descricao":"Vale a pena explorar seu Centro Histórico principalmente a Avenida Beira Mar. O casario de época foi, em sua maioria, construído sobre o alinhamento das vias públicas e as paredes laterais, sobre os limites dos terrenos. As paredes de algumas dessas casas eram construídas com pedras e argamassa composta de areia, cal de ostras retiradas dos sambaquis (antiquíssimos montes de conchas e mariscos com mais de oito mil anos, presentes na região) e óleo extraído de baleia. Mesmo as casas mais novas conservam parte da história.",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto2.png"
+            },
+            {
+               "descricao":"Av Beira Mar é uma delícia!",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto3.png"
+            },
+            {
+               "descricao":"E quantas fotos!",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto4.png"
+            },
+            {
+               "descricao":"E temos fotos da Av Beira Mar de ponta a ponta rs .",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto5.png"
+            },
+            {
+               "descricao":"Passeamos muito, sempre parávamos para descanso, água e fotos! e na volta para o camping, ainda mais descanso.",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto6.png"
+            },
+            {
+               "descricao":"A Igreja de São João Baptista, situada na praça central, foi construída em 1577 para servir de fortaleza contra invasores. A parede é espessa e constituída de calcário retirado de conchas e de óleo extraído da gordura de baleias que eram caçadas ao redor da Ilha do Bom Abrigo. Pequenas frestas na parede lateral da igreja e de frente ao estuário (as seteiras) permitiam a passagem de flechas de dentro para fora, para atingir os intrusos sem que os mesmos atingissem quem se encontrava no interior da igreja.",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto7.png"
+            },
+            {
+               "descricao":"Um ponto a parte nesse passeio é a gastronomia! Com sua culinária, Cananéia ganhou destaque por seu conceito gastronômico, sendo chamada de capital gastronômica do Vale do Ribeira. Mas o principal produto é a ostra e eu posso dizer, como amante dessa iguaria, que realmente está no topo das melhores que já experimentei. A oferta de peixes e derivados de frutos do mar é vasta e facilmente encontrada em restaurantes e similares da cidade. Na Avenida Beira Mar, todos aceitam pets e a grande maioria, têm mesas externas.",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto8.png"
+            },
+            {
+               "descricao":"Atravessando.",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto9.png"
+            },
+            {
+               "descricao":"Chegando em Ilha Comprida paramos na Praia Boqueirão Sul - delícia de praia. Ficamos no quiosque Point da Ilha - onde fomos muito bem atendidos. Esse lado da Ilha é fantástico! Carinha de praia deserta com uma boa estrutura para passar o dia..",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto10.png"
+            },
+            {
+               "descricao":"E esse passeio!!! Para ir de uma praia a outra, o caminho é diretamente pela praia - simplesmente maravilhoso. Também sempre com cuidado com as pessoas - e a maré.",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto11.png"
+            },
+            {
+               "descricao":"Seguimos por Juruvaúva  e uma parada para descanso.",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto12.png"
+            },
+            {
+               "descricao":"Opaaaaa .... Descanso e Praia.",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto13.png"
+            },
+            {
+               "descricao":"Depois do caminho incrível, chegamos em Pedrinhas. Sensacional!",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto14.png"
+            },
+            {
+               "descricao":"E estacionamos no Cantinho das Ostras!! Tem um ceviche de ostras que não tenho palavras para descrever!!  Fantástico!!!  TOP ONE!",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto15.png"
+            },
+            {
+               "descricao":"Pets são muito bem recebidos!",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto16.png"
+            },
+            {
+               "descricao":"Ficamos em Cananéia, no Caiaque Camping - muito sossegado, organizado e excelente atendimento.Viagem realmente para compartilhar ...",
+               "caminhoFoto":"assets/cidades/cananeia-sp/foto17.png"
             }
             ]
         },
